@@ -9,7 +9,7 @@ namespace Criptography
     class Cesar
     {
         String phrase;
-        private int key;
+        public int key;
         private int posicion;
         private String encodedPhrase;
         private String decodedPhrase;
@@ -52,6 +52,7 @@ namespace Criptography
         public void decode(string coded)
         {
             decodedPhrase = null;
+            
             for (int i = 0; i < coded.Length; i++)
             {
                     if (coded[i] == ' ')
@@ -62,6 +63,7 @@ namespace Criptography
                     {
                         posicion = (int)coded[i] - key;
                         if (posicion < 65) posicion += 26;
+                        if (posicion > 90) posicion -= 26;
                         decodedPhrase += (char)posicion;
                     }
             }

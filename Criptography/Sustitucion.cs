@@ -9,7 +9,7 @@ namespace Criptography
     
     class Sustitucion
     {
-        public String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        public String alphabet = "abcdefghijklmnñopqrstuvwxyz";
         private string key;
         private string message;
         public string ciphered;

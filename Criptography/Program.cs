@@ -11,13 +11,28 @@ namespace Criptography
         static void Main(string[] args)
         {
             //constructor que acepta la frase a cifrar y el valor de p
-            Cesar cesar = new Cesar("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", 3);
+            Cesar cesar = new Cesar("", 9);
+            String reverse = "UJCRE NAXV MWJ NAXV NVXLNK UURF HQYJAPXCYHAL BTAXFCNW ANCDYVXL XC NEXV XC NDWRCWXL BWXRCJLRWDVVXL MWJ NLANVVXL BJ NADCDO NQC WR MWJ";
+            String straight = "";
+            int x = 1;
+            for (int i = reverse.Length; i > 0; i--)
+            {
+
+                straight += reverse[reverse.Length -x];
+                x++;
+            }
+            cesar.decode(straight);
+            Console.WriteLine(cesar.getdecodedPhrase());
+            
+            
             
             cesar.encode();
-            cesar.decode("WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ");
+            cesar.decode("L JRW LW");
             Console.WriteLine("Algoritmo cesar");
             Console.WriteLine("Palabra cifrada");
-            Console.WriteLine(cesar.getencodedPhrase());
+            //HELLO EVERYBODY
+            //H SLJABYL PU LUNSPZO
+            
             Console.WriteLine("Palabra decifrada");
             Console.WriteLine(cesar.getdecodedPhrase());
 

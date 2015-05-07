@@ -4,3 +4,9 @@ c:\users\ariel isac\documents\visual studio 2013\Projects\Criptography\Criptogra
 c:\users\ariel isac\documents\visual studio 2013\Projects\Criptography\Criptography\obj\Debug\Criptography.exe
 c:\users\ariel isac\documents\visual studio 2013\Projects\Criptography\Criptography\obj\Debug\Criptography.pdb
 c:\users\ariel isac\documents\visual studio 2013\Projects\Criptography\Criptography\obj\Debug\Criptography.csprojResolveAssemblyReference.cache
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\bin\Debug\Criptography.exe.config
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\obj\Debug\Criptography.exe
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\obj\Debug\Criptography.pdb
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\bin\Debug\Criptography.exe
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\bin\Debug\Criptography.pdb
+C:\Users\Ariel Isac\Documents\GitHub\Criptography\Cryptography\Criptography\obj\Debug\Criptography.csprojResolveAssemblyReference.cache
